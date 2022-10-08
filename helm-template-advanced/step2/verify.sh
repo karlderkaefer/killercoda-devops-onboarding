@@ -1,3 +1,3 @@
 #!/bin/bash
 
-helm conftest /app > /tmp/everything.txt 2>&1
+helm conftest /app > /tmp/results.log 2>&1

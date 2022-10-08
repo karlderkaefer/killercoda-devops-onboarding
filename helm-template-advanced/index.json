@@ -12,9 +12,17 @@
         "text": "step1/instruction.md",
         "verify": "step1/verify.sh"
       }
-    ]
+    ],
+    "assets": {
+      "host01": [
+        {"file": "*", "target": "/app", "chmod": "+w"}
+      ]
+    }
   },
   "backend": {
     "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "title": "Advanced helm templating",
+  "description": "Train to work with helm templates",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "steps": [
+    {
+      "title": "Install Helm",
+      "foreground": "step1/foreground.sh",
+      "text": "step1/instruction.md",
+      "verify": "step1/verify.sh"
+    },
+    {
+      "title": "Delete a pod",
+      "text": "step2/text.md",
+      "verify": "step2/verify.sh"
+    }
+  ],
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

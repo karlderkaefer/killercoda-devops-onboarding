@@ -11,11 +11,16 @@
         "foreground": "step1/foreground.sh",
         "text": "step1/instruction.md",
         "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Adding values file",
+        "text": "step2/instruction.md",
+        "verify": "step2/verify.sh"
       }
     ],
     "assets": {
       "host01": [
-        {"file": "*", "target": "/app", "chmod": "+w"}
+        {"file": "*/**", "target": "/app", "chmod": "+w"}
       ]
     }
   },

@@ -11,10 +11,8 @@ num=$(helm dep ls | wc -l)
 expected=4
 if ((num <= expected)); then
   helm dep ls >> /tmp/results.log
-  helm dep ls
   echo "expected 3 helm dependencies. You need to add the sub-charts to dependencies." >> /tmp/results.log
-  echo "expected 3 helm dependencies. You need to add the sub-charts to dependencies."
-#   exit 1
+  exit 1
 fi
 
 helm conftest . >> /tmp/results.log 2>&1

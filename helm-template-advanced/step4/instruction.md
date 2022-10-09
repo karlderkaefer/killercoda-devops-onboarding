@@ -7,26 +7,23 @@ Get to know some sprig template functions.
 * [string function needed for this example](http://masterminds.github.io/sprig/strings.html)
 
 One example of a simple chain of function is to quote a value
-``ỳaml
+```
 pizza: {{ .Values.pizza | quote }}
-``
+```
 
 ### Your Task
 
 Fix the chart of step 4 `cd /app/step4`{{exec}}
 Find suitable sprig function and chain them with values
 
-**addon**: should remove the prefix and write all chars in Capital Letters
-**triple**: should repeat `.Values.app.name` three times
+* **addon**: should remove the prefix `nginx-` and write all chars in Capital Letters
+* **triple**: should repeat `.Values.app.name` three times
 
-see [helm docu for functions](https://helm.sh/docs/chart_template_guide/functions_and_pipelines/)
+see [helm docu for functions and pipelines](https://helm.sh/docs/chart_template_guide/functions_and_pipelines/)
 **Hint** you can chain function with `|`
 
-The result should look like this:
+The helm template result should look like this:
 ```
-helm template .
----
-# Source: task3/templates/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:

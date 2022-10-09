@@ -1,0 +1,8 @@
+apiVersion: v2
+name: step3
+type: application
+version: 0.1.0
+dependencies:
+  - name: step2
+    version: 0.1.0
+    repository: file://../step2

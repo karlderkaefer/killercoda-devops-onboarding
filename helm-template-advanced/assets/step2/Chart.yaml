@@ -1,4 +1,4 @@
 apiVersion: v2
-name: task1
+name: step2
 type: application
 version: 0.1.0

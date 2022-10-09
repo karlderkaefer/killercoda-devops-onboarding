@@ -1,12 +1,12 @@
 ### Loops
 
+Fix the chart of step 3 `cd /app/step3`{{exec}} 
+
 The goal is to add all labels defined in `customLabels` in [values.yaml](/app/step3/values.yaml) by using a loop.
 
-The result should look like this:
-```
-helm template .
+The result helm template should look like this:
+```yaml
 ---
-# Source: task2/templates/deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:

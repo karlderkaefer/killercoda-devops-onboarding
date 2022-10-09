@@ -18,6 +18,11 @@
         "title": "Adding values file",
         "text": "step2/instruction.md",
         "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Loops in helm",
+        "text": "step3/instruction.md",
+        "verify": "step3/verify.sh"
       }
     ],
     "assets": {

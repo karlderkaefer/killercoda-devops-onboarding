@@ -3,7 +3,9 @@
   "description": "Train to work with helm templates",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
     },
     "steps": [
       {

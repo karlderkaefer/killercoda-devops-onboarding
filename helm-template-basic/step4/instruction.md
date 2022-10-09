@@ -14,7 +14,7 @@ pizza: {{ .Values.pizza | quote }}
 ### Your Task
 
 Fix the chart of step 4 `cd /app/step4`{{exec}}
-Find suitable sprig function and chain them with values
+Find suitable sprig function and chain them with values in `deplyoment.yaml`
 
 * **addon**: should remove the prefix `nginx-` and write all chars in Capital Letters
 * **triple**: should repeat `.Values.app.name` three times

@@ -2,4 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
+  annotations:
+    chart: {{ default .Chart.Name .Values.nameOverride }}
   labels:

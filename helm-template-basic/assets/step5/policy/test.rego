@@ -21,3 +21,10 @@ deny[msg] {
     chart != "backend"
     msg = sprintf("Expected alias backend for step 4 chart but found %s", [chart])
 }
+
+deny[msg] {
+    is_deployment
+    name = "nginx2"
+    chart != "backend"
+    msg = sprintf("Expected alias backend for step 4 chart but found %s", [chart])
+}

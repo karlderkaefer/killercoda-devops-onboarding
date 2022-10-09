@@ -34,7 +34,7 @@ EOF
 ### Verify
 
 Move to helm chart dir.
-`cd /app/step3`{{exec}}
+`cd /app/step5`{{exec}}
 
 Check if you can render helm template correctly.
 `helm template .`{{exec}}

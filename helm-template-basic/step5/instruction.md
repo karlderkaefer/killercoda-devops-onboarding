@@ -39,6 +39,9 @@ Move to helm chart dir.
 Check if you can render helm template correctly.
 `helm template .`{{exec}}
 
+Check if you can helm dependencies were installed correctly.
+`helm dep ls`{{exec}}
+
 Check if you have passed the task.
 `helm conftest .`{{exec}}
 

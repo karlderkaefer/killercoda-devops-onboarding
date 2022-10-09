@@ -1,0 +1,35 @@
+{
+  "title": "Basic Helm Templating",
+  "description": "Train to work with helm templates",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Install Helm",
+        "foreground": "step1/foreground.sh",
+        "text": "step1/instruction.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Umbrella Chart",
+        "text": "step5/instruction.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "assets": {
+      "host01": [
+        {"file": "**", "target": "/app", "chmod": "+w"}
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  },
+  "interface": {
+    "layout": "ide"
+  }
+}

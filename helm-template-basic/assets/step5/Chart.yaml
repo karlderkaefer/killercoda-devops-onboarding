@@ -1,0 +1,9 @@
+apiVersion: v2
+name: step5
+type: application
+version: 0.1.0
+dependencies:
+  - name: step2
+    alias: steps2
+    version: 0.1.0
+    repository: file://../step2

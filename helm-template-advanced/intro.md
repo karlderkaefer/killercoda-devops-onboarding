@@ -1,1 +1,0 @@
-Helm template demo

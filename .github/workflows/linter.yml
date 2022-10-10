@@ -19,7 +19,7 @@ jobs:
         uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: false
-          FILTER_REGEX_EXCLUDE: "**/depandabot.yml"
+          FILTER_REGEX_EXCLUDE: "**/dependabot.yml"
           MARKDOWN_CONFIG_FILE: .markdownlint.yml
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

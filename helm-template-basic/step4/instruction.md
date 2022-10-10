@@ -3,10 +3,12 @@
 Helm used go template behind the scenes and supports sprig function within templates.
 This is often quite handy to reduce line of codes e.g. when you need to base64 encode strings.
 Get to know some sprig template functions.
+
 * [overview](http://masterminds.github.io/sprig/)
 * [string function needed for this example](http://masterminds.github.io/sprig/strings.html)
 
 One example of a simple chain of function is to quote a value
+
 ```
 pizza: {{ .Values.pizza | quote }}
 ```
@@ -23,6 +25,7 @@ see [helm docu for functions and pipelines](https://helm.sh/docs/chart_template_
 **Hint** you can chain function with `|`
 
 The helm template result should look like this:
+
 ```
 apiVersion: apps/v1
 kind: Deployment

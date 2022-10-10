@@ -10,9 +10,10 @@ Fix the chart of step 5 `cd /app/step5`{{exec}}
 
 Chart dependencies can be added in `Chart.yaml` within key `dependencies`.
 The chart of `step2` is already added.
- * Add the other two previously created charts `step3` and `step4` as dependencies.
- * Change the alias of step3 chart to `frontend`
- * Change the alias of step4 chart to `backend`
+
+* Add the other two previously created charts `step3` and `step4` as dependencies.
+* Change the alias of step3 chart to `frontend`
+* Change the alias of step4 chart to `backend`
 
 you need to initially build dependencies after your added them to `Chart.yaml`.
 `helm dep build`{{exec}}

@@ -15,6 +15,21 @@
         "verify": "step1/verify.sh"
       },
       {
+        "title": "Adding values file",
+        "text": "step2/instruction.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Loops in helm",
+        "text": "step3/instruction.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Sprig Functions",
+        "text": "step4/instruction.md",
+        "verify": "step4/verify.sh"
+      },
+      {
         "title": "Umbrella Chart",
         "text": "step5/instruction.md",
         "verify": "step5/verify.sh"

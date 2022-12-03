@@ -1,6 +1,6 @@
 # Killercoda Devops Onboarding
 
-See these in action here: https://killercoda.com/examples
+See these in action here: https://killercoda.com/pansen/scenario/helm-template-basic
 
 Documentation: https://killercoda.com/creators
 

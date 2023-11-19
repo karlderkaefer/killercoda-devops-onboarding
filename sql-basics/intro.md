@@ -15,6 +15,14 @@ SQL (Structured Query Language) is a standard language for accessing and manipul
 
 Let's get started with setting up your SQL environment and exploring some basic concepts!
 
+## Create Database
+
+First we need to create the database for the scenario. Execute the following command to create the database:
+
+```bash
+sqlite3 workshop.db "CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER);"
+sqlite3 workshop.db "INSERT INTO users (name, age) VALUES ('Alice', 30), ('Bob', 25), ('Charlie', 35);"
+```{{exec}}
 
 ## Viewing Table Structure
 

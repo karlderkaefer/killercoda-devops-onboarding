@@ -1,0 +1,40 @@
+{
+    "title": "SQL for Beginners",
+    "description": "An interactive workshop to learn the basics of SQL.",
+    "details": {
+        "intro": {
+            "text": "intro.md",
+            "foreground": "foreground.sh"
+        },
+        "steps": [
+            {
+                "title": "Basic Queries",
+                "text": "step1/text.md",
+                "verify": "step1/verify.sh"
+            },
+            {
+                "title": "Filtering Data",
+                "text": "step2/text.md",
+                "verify": "step2/verify.sh"
+            },
+            {
+                "title": "Sorting and Limiting Data",
+                "text": "step3/text.md",
+                "verify": "step3/verify.sh"
+            },
+            {
+                "title": "Using Aggregate Functions",
+                "text": "step5/text.md",
+                "verify": "step5/verify.sh"
+            },
+            {
+                "title": "Introduction to JOIN Operations",
+                "text": "step6/text.md",
+                "verify": "step6/verify.sh"
+            }
+        ]
+    },
+    "backend": {
+        "imageid": "ubuntu"
+    }
+}
